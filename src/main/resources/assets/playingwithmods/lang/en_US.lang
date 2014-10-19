@@ -1,0 +1,17 @@
+# Keys
+keys.playingwithmods.category=PlayingWithMods
+keys.playingwithmods.charge=Charge
+keys.playingwithmods.release=Release
+
+# Creative Tabs
+itemGroup.playingwithmods=Playing With Mods
+
+# Items
+item.playingwithmods:mapleLeaf.name=Maple Leaf of Awesomeness
+item.playingwithmods:mobSpawner.name=Life Crystal
+
+#Blocks
+tile.playingwithmods:flag.name=Canadian Flag of Awesomeness
+tile.playingwithmods:mill.name=Windmill
+tile.playingwithmods:gMill.name=WindmillFloor
+tile.playingwithmods:mobSpawnerBlock.name=Monster Spawner
