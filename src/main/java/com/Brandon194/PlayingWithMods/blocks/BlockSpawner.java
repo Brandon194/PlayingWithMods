@@ -14,7 +14,7 @@ import net.minecraft.tileentity.MobSpawnerBaseLogic;
  */
 public class BlockSpawner extends BlockMobSpawner {
     public BlockSpawner(){
-        super(Material.iron);
+        super();
 
         this.setBlockTextureName(Names.Blocks.MOB_SPAWNER);
         this.setBlockName(Names.Blocks.MOB_SPAWNER);

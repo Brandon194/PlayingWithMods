@@ -1,5 +1,6 @@
 package com.Brandon194.PlayingWithMods.init;
 
+import com.Brandon194.PlayingWithMods.TileEntity.TileEntityGenerator;
 import com.Brandon194.PlayingWithMods.TileEntity.TileEntityWindmill;
 import com.Brandon194.PlayingWithMods.TileEntity.TileEntityWindmillFloor;
 import com.Brandon194.PlayingWithMods.reference.Names;
@@ -12,5 +13,6 @@ public class ModTileEntity {
     public static void init() {
         GameRegistry.registerTileEntity(TileEntityWindmill.class, Names.TileEntities.MILL);
         GameRegistry.registerTileEntity(TileEntityWindmillFloor.class, Names.TileEntities.MILL_FLOOR);
+        GameRegistry.registerTileEntity(TileEntityGenerator.class, Names.TileEntities.GENERATOR);
     }
 }

@@ -1,6 +1,7 @@
 package com.Brandon194.PlayingWithMods.init;
 
 import com.Brandon194.PlayingWithMods.blocks.BlockFlag;
+import com.Brandon194.PlayingWithMods.blocks.BlockGenerator;
 import com.Brandon194.PlayingWithMods.blocks.BlockSpawner;
 import com.Brandon194.PlayingWithMods.blocks.BlockWindmillGound;
 import com.Brandon194.PlayingWithMods.container.BlockWindmill;
@@ -15,12 +16,14 @@ public class ModBlock {
     public static final BlockWindmill mill = new BlockWindmill();
     public static final BlockWindmillGound gMill = new BlockWindmillGound();
     public static final BlockSpawner blockSpawner = new BlockSpawner();
+    public static final BlockGenerator bGen = new BlockGenerator();
 
     public static void init(){
         GameRegistry.registerBlock(flag, Names.Blocks.FLAG);
         GameRegistry.registerBlock(mill, Names.Blocks.MILL);
         GameRegistry.registerBlock(gMill, Names.Blocks.GMILL);
         GameRegistry.registerBlock(blockSpawner, Names.Blocks.MOB_SPAWNER);
+        GameRegistry.registerBlock(bGen, Names.Blocks.GENERATOR);
 
     }
 }

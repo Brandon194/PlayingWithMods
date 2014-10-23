@@ -18,12 +18,19 @@ public class Names {
         public static final String MILL = "bWindmill";
         public static final String GMILL = "gMill";
         public static final String MOB_SPAWNER = "mobSpawnerBlock";
+        public static final String GENERATOR = "bGenerator";
+    }
+
+    public static final class Container
+    {
+        public static final String CGENERATOR = "cGenerator";
     }
 
     public static final class TileEntities
     {
         public static final String MILL = "teWindmill";
         public static final String MILL_FLOOR = "teWindmillFloor";
+        public static final String GENERATOR = "teGenerator";
     }
 
     public static final class Keys
